@@ -26,7 +26,7 @@ setup(
     name='pgdbconn',
     version='0.8.0',
     packages=['pgdbconn'],
-    install_requires=['psycopg2 >= 2.5'],
+    install_requires=['psycopg2-binary >= 2.8.0'],
     tests_require=['pytest'],
     cmdclass={'test': PyTest},
     author='Joe Abbate',
